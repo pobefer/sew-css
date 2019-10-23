@@ -65,7 +65,7 @@ nav a:link, nav a:visited {
 }
 /*011*/
 a:visited{
-    color: red;
+    color: black;
     border-bottom:1px dashed  #9999CC;
     text-decoration:none;
 }
