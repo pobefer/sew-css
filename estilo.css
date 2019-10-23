@@ -1,0 +1,103 @@
+/*001*/
+body {
+      font: 400 15px Tahoma, sans-serif;
+      line-height: 1.8;
+      color: darkred;
+      background-color: skyblue;
+  }
+/*001*/
+h1{
+    background-color:rgb(30, 123, 32); 
+    color: 	#000000;
+    margin-top: 1.5em;
+    padding: 100px 25px;
+}
+/*001*/
+ h3 , h5 , h2, h4, h6{
+    background-color: #5AF98A; 
+    color: 	#1432F6;
+    padding: 10px 25px;
+}
+
+/*001*/
+h1, h3 , h5 {
+    font-stretch: expanded;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;    
+    font-size: 3em;
+  }
+/*001*/
+h2, h4, h6{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2em;
+}
+/*001*/
+h3{
+    font-size: 1.5em;
+}
+/*001*/
+h4{
+    font-size: 1em;
+}
+/*001*/
+p,  th , td , li{
+    font: 400 15px Tahoma, sans-serif;
+    font-size: 16px;
+}
+/*011*/
+p::first-letter {
+    text-transform: uppercase;
+}
+/*001*/
+th, td {
+   width: 25%;
+   vertical-align: top;
+}
+
+nav a.current:link, nav a.current:visited {
+  color: white;
+  background-color: blue;
+}
+/*012*/
+nav a:link, nav a:visited {
+  color: blue;
+}
+/*011*/
+a:visited{
+    color: red;
+    border-bottom:1px dashed  #9999CC;
+    text-decoration:none;
+}
+/*001*/
+a{
+    color: black;
+    border-bottom:1px dotted #9999CC;
+    text-decoration:none;
+}
+
+/*001*/
+table {
+  border: red 3px solid;
+}
+
+/*001*/
+pre {
+    text-align: center;
+}
+
+/*010*/
+.texoCancion{
+    text-align: center;
+}
+
+/*011*/
+li::first-letter{
+    font-weight: bold;
+}
+
+nav{
+    background-color: rgb(30, 123, 32); 
+    text-align:center;
+}
