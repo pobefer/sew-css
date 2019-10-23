@@ -101,3 +101,12 @@ nav{
     background-color: beige; 
     text-align:center;
 }
+
+img {
+  border-radius: 8px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
