@@ -62,7 +62,7 @@ nav a.current:link, nav a.current:visited {
 }
 /*012*/
 nav a:link, nav a:visited {
-  color: blue;
+  color: darkgoldenrod;
 }
 /*011*/
 a:visited{
